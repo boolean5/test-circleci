@@ -7,3 +7,7 @@ def test_increment():
 def test_decrement():
     """Test decrement."""
     assert mymodule.decrement(4) == 3
+
+def test_double():
+    """Test double."""
+    assert mymodule.double(4) == 8
