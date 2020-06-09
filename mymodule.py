@@ -1,3 +1,5 @@
+from myothermodule import half
+
 def increment(x):
     """Increment."""
     return x + 1
@@ -9,3 +11,6 @@ def decrement(x):
 def double(x):
     """Double."""
     return x * 2
+
+def do_all(x):
+    return half(double(decrement(increment(x))))
