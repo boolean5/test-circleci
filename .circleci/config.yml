@@ -26,6 +26,6 @@ jobs:
             coverage report
             coverage html -d test-results/htmlcov --fail-under=82  
       - store_test_results:
-              path: test-results/junit.xml
+              path: test-results
       - store_artifacts:
               path: test-results
