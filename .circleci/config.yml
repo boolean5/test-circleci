@@ -23,7 +23,7 @@ jobs:
             source ~/venv/bin/activate
             mkdir test-results
             coverage run --source=. -m pytest -v --junitxml=test-results/junit.xml
-            coverage report
+            coverage report --fail-under=82
             coverage html
       - store_test_results:
               path: test-results
