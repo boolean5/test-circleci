@@ -14,3 +14,4 @@ def test_double():
 
 def test_is_greater_than():
     assert not mymodule.is_greater_than(4, 5)
+    assert mymodule.is_greater_than(5, 4)
