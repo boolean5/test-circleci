@@ -11,3 +11,6 @@ def test_decrement():
 def test_double():
     """Test double."""
     assert mymodule.double(4) == 8
+
+def test_is_greater_than():
+    assert not is_greater_than(4, 5)
