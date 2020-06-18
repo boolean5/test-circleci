@@ -18,5 +18,5 @@ def do_all(x):
 def is_greater_than(x, y):
     result = False
     if x > y:
-        return True
+        result = True
     return result
