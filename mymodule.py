@@ -16,6 +16,7 @@ def do_all(x):
     return half(double(decrement(increment(x))))
 
 def is_greater_than(x, y):
+    result = False
     if x > y:
         return True
-    return False
+    return result
