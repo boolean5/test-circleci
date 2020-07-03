@@ -4,3 +4,11 @@
 [![codecov](https://codecov.io/gh/boolean5/test-circleci/branch/master/graph/badge.svg)](https://codecov.io/gh/boolean5/test-circleci)
 
 A test project to try CircleCI.
+
+1. Step 1
+
+    ```
+    pip install -r requirements-dev.txt
+    ```
+
+    Step 1b
