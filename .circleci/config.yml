@@ -22,9 +22,8 @@ jobs:
           command: |
             source ~/venv/bin/activate
             mkdir test-results
-            python -m pytest -v --junitxml=test-results/junit.xml --cov=. --cov-report=xml --cov-branch
-      - run:
-          name: Upload coverage report to Codecov
-          command: bash <(curl -s https://codecov.io/bash)
+            python -m pytest -v --junitxml=test-results/junit.xml --cov=. --cov-report=html --cov-branch
       - store_test_results:
               path: test-results
+      - store_artifacts:
+              path: htmlcov
