@@ -1,6 +1,7 @@
 # test-circleci
 
 [![boolean5](https://circleci.com/gh/boolean5/test-circleci.svg?style=shield)](https://circleci.com/gh/boolean5/test-circleci)
+[![coverage](https://circleci.com/api/v1.1/project/github/boolean5/test-circleci/latest/artifacts/0/coverage.svg?branch=master)](https://circleci.com/api/v1.1/project/github/boolean5/test-circleci/latest/artifacts/0/htmlcov/index.html?branch=master)
 
 A test project to try CircleCI.
 
