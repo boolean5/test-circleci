@@ -23,7 +23,8 @@ jobs:
           command: |
             source ~/venv/bin/activate
             mkdir test-results
-            python -m pytest -v --junitxml=test-results/junit.xml --cov=. --cov-report=html --cov-branch
+            python -m pytest -v --junitxml=test-results/junit.xml --cov=. \
+            --cov-report=term --cov-report=html --cov-branch
             coverage-badge -o coverage.svg
       - store_test_results:
               path: test-results
