@@ -12,3 +12,4 @@ A test project to try CircleCI.
     ```
 
     Step 1b
+    Step 1c
