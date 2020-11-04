@@ -32,3 +32,17 @@ jobs:
               path: htmlcov
       - store_artifacts:
               path: coverage.svg
+
+workflows:
+  commit:
+    jobs:
+      - build
+  scheduled:
+    triggers:
+      - schedule:
+          cron: "20,30 * * * *"
+          filters:
+            branches:
+              only: master
+    jobs:
+      - build
