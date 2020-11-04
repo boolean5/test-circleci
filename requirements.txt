@@ -1,2 +1,2 @@
-publicsuffixlist==0.4.0
-trackingprotection_tools==0.4.6
+# publicsuffixlist==0.4.0
+# trackingprotection_tools==0.4.6
