@@ -12,3 +12,14 @@ A test project to try CircleCI.
     ```
 
     Step 1b
+
+
+> This is a note
+> in 2 lines
+
+
+2. This is a test line
+   refering to code in [`tests/test_mymodule.py`]
+   (tests/test_mymodule.py#L7).
+
+
