@@ -13,6 +13,7 @@ def double(x):
     return x * 2
 
 def do_all(x):
+    """Do all the things."""
     return half(double(decrement(increment(x))))
 
 def is_greater_than(x, y):
